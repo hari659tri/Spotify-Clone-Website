@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Mohave&family=Poppins:wght@400;600&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+
+body{
+
+    background-color: #f9ff4f;
+    height: 70%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    height: 23%;
+}
+
+nav{
+    
+    font-family: 'Ubuntu', sans-serif;
+
+}
+li{
+    padding: 0px 10px;
+}
+
+ nav ul{
+     display: flex;
+     align-items: center;
+     list-style-type: none;
+     height:47px;
+     background-color: black;
+     color: white;
+ }
+ 
+ img{ 
+    width: 36px;
+    height: 33px;
+    margin-top: 3px;
+    margin-left: -5px;
+    align-items: center;
+    padding: 0px 6px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+  height: 89vh;
+  background-color: black;
+  color: white;
+  font-family: 'Mohave', sans-serif;
+  width: 76%;
+  display: flex;
+  margin: 22px auto;
+  border-radius: 12px;
+  flex-direction: column;
+  position: relative;
+  top: 35px;
+}  
+
+
+ .bottom{
+   
+  height: 49px;
+  background-color: black;
+  margin-top: 298px;
+  margin: right 60px;
+  color: white;
+  display: flex; 
+   justify-content: center;
+  align-items: center; 
+   flex-direction: column;
+  position: relative;
+  left: -1px;
+  top: 60px;
+  border-radius: 12px;
+
+
+ }
+
+
+ #myProgressBar{
+
+    width:67vw;
+    margin-left: 100px;
+    margin-top: 3pxs;
+    background-color: blue;
+    cursor: pointer;
+    position: relative;
+    top:-5px;
+ }
+ 
+  .icons{
+    margin-top: 2px;
+    position: relative;
+    bottom: 0px;
+
+    right: -1px;
+}
+    
+  
+  .icons i{
+    cursor: pointer;
+  }
+
+  .songlist{
+
+     position:relative;
+     height: 20vh;
+  }
+
+  input{
+
+    color: blue;
+    width: 98%;
+    position: relative;
+    right: 48px;
+  }
+
+#img1{
+  box-sizing: border-box;
+  width: 21vw;
+  height: 88vh;
+    position: relative;
+    left: 724px;
+    bottom: 81.4px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  } 
+
+
+
+  .songItem{
+    height: 40px;
+    width: 66%;
+    box-sizing: border-box;
+    display: flex;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin: 5px 0;
+    position: relative;
+    bottom: 561px;
+    padding: 7px 11px;
+    margin-left: 7px;
+  }
+
+  .songItem img{
+    position: relative;
+    border-radius: 40px;
+    left: -1px;
+    bottom: 2px;
+  }
+
+
+  .timestamp{
+    position: relative;
+    right: 29px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+
+  }
+  .name{
+    position: relative;
+    right: 3px;
+    bottom: 11px;
+  }
+
+  i{
+
+
+    position: relative;
+    left: 4px;
+    bottom: 8px;
+  }
+  #element{
+
+    position: relative;
+    margin-left: 20px;
+    margin-top: 4px;
+    color: rgb(3, 96, 176);
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h1{
+    position: relative;
+    bottom: 34px;
+    margin-left: 17px;
+
+  }
+
+  @media only screen and (max-width: 100px) {
+    body {
+      background-color: greenyellow;
+    }
+  }
+  
