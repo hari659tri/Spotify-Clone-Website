@@ -6,7 +6,7 @@ This is a simple spotify clone that Will i am make with the help of html css and
 
 ## Demo
 link to demo 
-https://spotify-clone12w.netlify.app/
+https://spotify-clone12w.netlify.app/ 
 
 
 
