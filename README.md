@@ -6,7 +6,7 @@ This is a simple spotify clone that Will i am make with the help of html css and
 
 ## Demo
 link to demo 
-http://127.0.0.1:5501/spotifyproject/index.html
+https://spotify-clone12w.netlify.app/
 
 
 
